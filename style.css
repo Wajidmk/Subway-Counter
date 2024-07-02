@@ -1,0 +1,40 @@
+/* Centering text for h1 and h2 */
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+/* Styling for the container div */
+.container {
+    width: 300px; /* Small container width */
+    height: 350px; /* Small container height */
+    background-color: rgb(223, 59, 67); /* Red background color */
+    color: rgb(0, 0, 0); /* White text color */
+    display: flex; /* Flexbox to center content */
+    flex-direction: column; /* Stack h1 and h2 vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    border-radius: 10px; /* Rounded corners */
+    position: absolute; /* Absolute positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset by half to truly center */
+}
+
+
+#increment-btn{
+
+width: 90px;
+height: 45px;
+border-radius: 10px;
+background-color:rgb(236, 143, 109);
+}
+
+
+#save-btn{
+
+    width: 90px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:rgb(62, 238, 62);
+    }
